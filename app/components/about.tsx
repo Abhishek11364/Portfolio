@@ -23,14 +23,14 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         I am a {" "}
-        <span className="font-medium">final</span> year student pursuing B.tech in Computer Science from Vellore Institute of Technology.{" "} I am currently into 
+        <span className="font-medium">final</span> year student pursuing B.tech in Computer Science from Noida Institute of Technology.{" "} I am currently into 
         <span className="font-medium"> front-end web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect and learning new technologies. I <span className="underline">love</span> the
         feeling of finally getting that red squibbly line out of the way. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Tailwind, Redux, trpc, Java (DSA)
+          React,  Tailwind, Redux, Javascript, Java (DSA)
         </span>
         . I am also familiar with TypeScript and Jest. I am always looking to
         learn new technologies. I am currently looking for a{" "}

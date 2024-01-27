@@ -7,10 +7,8 @@ import { sendEmail } from "@/actions/sendEmail";
 import SubmitButton from "./submitButton";
 import toast from "react-hot-toast";
 
-
 function Contact() {
   const { ref } = useSectionInView("Contact");
-
 
   return (
     <motion.section
@@ -33,21 +31,23 @@ function Contact() {
       <SectionHeading>Contact Me</SectionHeading>
       <p className="text-gray-700 -mt-5 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:devanshjain2904@gmail.com">
-          devanshjain2904@gmail.com
+        <a className="underline" href="mailto:abhimaurya5612@gmail.com">
+          abhimaurya5612@gmail.com
         </a>{" "}
         or through this form.
       </p>
 
-      <form className="mt-10 flex flex-col dark:text-black" action={async (formData) => {
-        const {data, error} = await sendEmail(formData)
-          if(error){
-           toast.error(error)
-              return;
-
+      <form
+        className="mt-10 flex flex-col dark:text-black"
+        action={async (formData) => {
+          const { data, error } = await sendEmail(formData);
+          if (error) {
+            toast.error(error);
+            return;
           }
-         toast.success('Email sent successfully')
-        }}>
+          toast.success("Email sent successfully");
+        }}
+      >
         <input
           className="h-14 rounded-lg px-4 borderBlack orderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
           name="senderEmail"

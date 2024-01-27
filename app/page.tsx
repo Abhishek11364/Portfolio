@@ -3,7 +3,6 @@ import Sectiondivider from "./components/sectiondivider";
 import About from "./components/about";
 import Projects from "./components/projects";
 import Skills from "./components/skills";
-import Certifications from "./components/certifications";
 import Contact from "./components/contact";
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <About />
       <Projects />
       <Skills />
-      <Certifications />
       <Contact />
     </main>
   );
