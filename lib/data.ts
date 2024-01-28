@@ -33,7 +33,7 @@ export const projectsData = [
     title: "Tasty Treat",
     description:
       "Developed a high-performance and responsive pizza ordering app, Payment gateway as Razopay",
-    tags: ["React", "React-Router", "Redux-Toolkit", "Javascript", "EmailJs"],
+    tags: ["React", "React-Router", "Redux-Toolkit", "Javascript", "EmailJs","Razopay"],
     imageUrl: BhookhLagiHai,
     link: "https://pizza-delivery-app-594l.vercel.app",
   },
