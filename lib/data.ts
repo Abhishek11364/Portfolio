@@ -54,6 +54,14 @@ export const projectsData = [
     imageUrl: Slima,
     link: "https://resume-builder-n6n8.vercel.app",
   },
+  {
+    title: "Projects Manager",
+    description:
+      "Developed a Project Manager app using React and React-Router",
+    tags: ["React", , "React-router"],
+    imageUrl: Slima,
+    link: "https://project-manager-dusky.vercel.app/",
+  },
 ] as const;
 
 export const skillsData = [
